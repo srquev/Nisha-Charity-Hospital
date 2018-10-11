@@ -1,0 +1,96 @@
+body{margin:0;
+            padding:0;}
+        /* global selector */
+        .container{
+            width:80%;
+            margin:auto;
+            overflow: hidden;}
+        
+        /* header Start*/
+        header{
+            background: #006666;
+            color:#fff;
+            border-bottom: 3px solid #f8842d;}
+        
+        #logo{
+            float:left;}
+        
+        header nav{
+            float:right;
+            margin-top:25px;}
+        
+        header ul{
+            margin:0;
+            padding:0;}
+        
+        header nav ul li{
+            display: inline;
+            padding-right:10px;}
+        
+        header a{
+            color:#fff;
+            font-size:18px;
+            text-decoration: none;
+            text-transform: uppercase;}
+        
+        strong{color:#f8842d;}
+       .active{color:#f8842d;}
+        header a:hover{
+            color:#C0C0C0;
+            transition: 0.s ease;}
+        /* header end*/
+        
+        /* Banner Start*/
+        #banner{
+            background: url('HOS%20banner.jpg') ;
+            background-size: cover;
+            min-height: 350px;
+            border-bottom: 3px solid #f8842d;
+            color:#fff;
+            text-align:left;}
+        
+        #banner .container{
+            display: flex;
+            justify-content: center;}
+        
+         #banner_heading h1{
+            margin: 0;
+            font-size: 50px;
+            text-align: center;
+            text-shadow: 2px 2px 5px #000;
+            position: relative;
+            top:110px;}
+        
+        .box{
+            width:30%;
+            margin-top:223px;  
+            padding-bottom: 20px;}
+        
+        .box:hover{
+            background: #000;
+            opacity: 0.8;
+            cursor: default;
+            transition:0.5s ease;}
+        
+        .box h1{padding-left: 10px;}
+        .box p{padding:10px;}
+        .box-1{background: #cc6666;}
+        .box-2{background: #006666;}
+        .box-3{background: #f8842d;}
+        .read-more{
+            margin-left:10px;
+            margin-bottom: 10px;}
+        
+        .box-1 a, .box-2 a{
+            border:2px solid #fff;
+            color:#fff;
+            text-decoration:none;
+            padding:4px 8px;}
+        /* Banner End*/
+        
+        /* footer start */
+        footer{
+            background: #006666;
+            color:#fff;
+            text-align: center;}
+        /* footer end */
